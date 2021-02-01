@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Balls</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onkeyup="handleKey(event)" onload="initGame()">
+  <h1>Collect those Balls</h1>
+  <div class="time-out">3 sec wait!</div>
+  <table>
+    <tbody class="board"></tbody>
+  </table>
+  <div class="score">0</div>
+  <div class="victory">Victory!
+    <button onclick="initGame()">restart</button>
+  </div>
+
+  <script src="js/app.js"></script>
+  <script src="js/util.js"></script>
+</body>
+
+</html>
